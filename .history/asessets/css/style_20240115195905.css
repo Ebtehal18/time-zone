@@ -190,7 +190,7 @@ body {
   .header nav .list {
     /* opacity: 0; */
     display: none;
-    /* display: block; */
+    display: block;
     position: absolute;
     width: calc(100% - 38px);
     padding: 20px 0;

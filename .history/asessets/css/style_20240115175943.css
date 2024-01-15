@@ -188,9 +188,8 @@ body {
     display: none;
   }
   .header nav .list {
-    /* opacity: 0; */
-    display: none;
-    /* display: block; */
+    opacity: 0;
+    display: block;
     position: absolute;
     width: calc(100% - 38px);
     padding: 20px 0;
@@ -219,8 +218,7 @@ body {
   }
   .header input:checked + nav .list {
     top: 80px;
-    /* opacity: 1; */
-    display: block;
+    opacity: 1;
   }
   .header .list .list-item:hover > .drop-downlist {
     top: 20px;
